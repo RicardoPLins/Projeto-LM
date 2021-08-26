@@ -1,0 +1,145 @@
+main{
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 2rem;
+}
+body{
+  background-image: url(https://cdn.pixabay.com/photo/2016/09/05/15/07/concrete-1646788_960_720.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  height: 100vh;
+  width: 98vw;
+}
+#evento {
+  font-size: 40px;
+  color: white;
+  background: #082032;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+#pub{
+  font-size: 17px;
+  color: white;
+  background: #082032;
+  text-align: right;
+  padding-top: 0.9rem;
+  padding-right: 0.3rem;
+}
+#login{
+  font-size: 17px;
+  color: white;
+  background: #082032;
+  text-align: right;
+  padding-top: 0.8rem;
+  padding-right: 1rem;
+}
+#login:hover {
+  text-decoration: underline;
+}
+#principal{
+  grid-row: 3/auto;
+  font-size: 35px;
+  text-align: left;
+  grid-column: 2/auto;
+
+}
+#categoria{
+  grid-row: 4/auto;
+  font-size: 20px;
+}
+#proc{
+  font-size: 15px;
+}
+#data{
+  font-size: 12px;
+}
+#cats{
+  font-size: 365px;
+  grid-row: 8/auto;
+  text-align: center;
+  grid-column: 2/auto;
+  margin-top: -150px;
+}
+#p{
+  font-size: 25px;
+  grid-column: 3/auto;
+  grid-row: 10/auto;
+  text-align: end;
+  padding-right: 1rem;
+}
+a{
+  font-size: 20px;
+  text-align: center;
+  grid-column: 1/auto;
+  text-decoration: none;
+  color: black;
+}
+a:visited{
+  color: black;
+}
+a:hover{
+  color: black;
+  text-decoration: underline;
+}
+#fb{
+  color: navy;
+  background: white;
+  font-size: 1.8rem;
+}
+#tw{
+  color: dodgerblue;
+  background: white;
+  font-size: 1.8rem;
+}
+#insta{
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  font-size: 1.8rem;
+}
+img{
+  width: 147px;
+  height: 140px;
+  text-align: center;
+  grid-row: 8/auto;
+  grid-column: 1/4;
+  border-radius: 7px;
+}
+figure{
+  grid-row: 8/auto;
+  grid-column: 2/auto;
+  text-align: center;
+}
+#botao {
+  background-color: rgba(255, 76, 36, 1);
+  color: white;
+  border-radius: 3px;
+}
+.container-3{
+    display: flex;
+    background-color: rgba(8, 32, 50, 0.76);
+    color: white;
+    margin-top: 70px;
+    justify-content: space-between;
+    height: 200px;
+    padding-top: 35px;
+}
+.container-3 .caixa-1 {
+    margin-left: 20px;
+}
+.container-3 .caixa-3 {
+    margin-right: 30px;
+}
+h2 {
+    font-size: 20px;
+}
+#copy {
+    background-color: rgba(8, 32, 50, 0.76);
+    color: white;
+    text-align: center;
+    border-top: 1px solid white;
+    padding: 15px;
+}
