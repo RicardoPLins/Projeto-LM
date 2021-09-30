@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width" >
+   <title>Projeto LM</title>
+   <link href="style.css" rel="stylesheet" type="text/css" />
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+ </head> 
+ 
+ <body>
+
+  <main>
+
+    <article id="evento">Eventos João Pessoa</article>
+    <article id="login"> Login</article>
+    <article id="pub">+Publicar Evento</article>
+    <article id="principal">Encontre os Principais Eventos de João Pessoa</article>
+    <article id="categoria">Veja os Eventos por Categorias:</article>
+  
+    <div class="form" >
+      <form action="projeto" method="POST">
+        <input id="proc" type="text" placeholder="Procurar Evento" name="evento">
+        <input id="data" type="date">
+        <input type="submit" value="buscar" id="botao">
+      </form>
+    </div>
+
+    <figure>
+      <img src="img/esporte.PNG" alt="imagem de esporte"> 
+      <img src="img/show.PNG" alt="imagem de show">
+      <img src="img/cultural.PNG" alt="imagem de cultura">
+      <img src="img/infantil.PNG" alt="imagem de infantil">
+      <img src="img/online.PNG" alt="imagem de online">
+    </figure>
+   
+  
+    <article class="cats"> 
+      <li>
+        <a href="sites/esporte.html" class="links">Esportes</a></li>
+      <li>
+        <a href="sites/shows.html" class="links">Shows</a></li>
+      <li>
+        <a href="sites/cultural.html" class="links">Culturais</a></li>
+      <li>
+        <a href="sites/infantis.html" class="links">Infantis</a></li>
+      <li>
+        <a href="sites/online.html" class="links">Online</a></li>
+    </article> 
+ </main>
+ 
+
+ <footer>
+ <div class="container-3">
+
+    <div class="caixa-1">
+        <h2> Informações </h2>
+        <br class="link"> Termos de uso
+        <br class="link"> Política de privacidade
+        <br class="link"> Trabalhe conosco
+    </div>    
+
+    <div class="caixa-2">
+        <h2> Contatos </h2>
+        <br> Email: eventos@gmail.com
+        <br> (83) 0000-0000
+    </div>
+
+    <div class="caixa-3">
+         <h2> Social </h2>   
+         <div class="icons">
+           <a href="https://www.facebook.com/"> <i id="fb" class="fab fa-facebook-square"></i></a>
+           <a href="https://www.instagram.com/"> <i id="insta" class="fab fa-instagram-square"></i></a>
+           <a href="https://twitter.com/login?lang=pt"> <i id="tw" class="fab fa-twitter-square tt"></i></a>
+         </div>
+    </div>
+ </div>
+
+ <div id="copy">
+    Eventos João Pessoa    © 2021  
+ </div>
+
+ </footer>
+ </body>
+</html>
